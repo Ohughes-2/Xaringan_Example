@@ -70,8 +70,11 @@ a:hover {
 
 /* Printed output from code blocks */
 .remark-code-output {
-  color: #C2AAEB; /* Lavender */
-  font-style: italic; 
+  background: #C2AAEB;   /* Lavender background */
+  color: #2E1A47;        /* Deep plum text for contrast */
+  padding: 0.4em 0.6em;
+  border-radius: 4px;
+  display: block;        /* Ensures background spans full width */
 }
 
 /* ----------------------------------------
