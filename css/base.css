@@ -68,14 +68,17 @@ a:hover {
   border-radius: 4px;
 }
 
-/* Printed output from code blocks */
-.remark-code-output {
-  background: #C2AAEB;   /* Lavender background */
-  color: #2E1A47;        /* Deep plum text for contrast */
-  padding: 0.4em 0.6em;
-  border-radius: 4px;
-  display: block;        /* Ensures background spans full width */
+/* Catch-all styling for printed code output */
+.remark-code-output,
+pre.remark-code-output,
+pre .remark-code-output {
+  background: #C2AAEB !important;   /* Lavender */
+  color: #2E1A47 !important;        /* Deep plum */
+  padding: 0.6em !important;
+  border-radius: 4px !important;
+  display: block !important;
 }
+
 
 /* ----------------------------------------
    Inverse slides
