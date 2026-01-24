@@ -1,9 +1,20 @@
+/* ----------------------------------------
+   Base slide styling
+-----------------------------------------*/
 .remark-slide-content {
   background-color: #392A48;   /* Matte purple */
   color: #7FD8BD;              /* Brighter mint for readability */
   box-shadow: 0 0 20px rgba(0,0,0,0.3);
 }
 
+/* Remove shadow on the title slide only */
+.remark-slide-content:first-of-type {
+  box-shadow: none;
+}
+
+/* ----------------------------------------
+   Titles (lavender hierarchy)
+-----------------------------------------*/
 .remark-slide-content h1,
 .remark-slide-content h2,
 .remark-slide-content h3 {
@@ -26,6 +37,9 @@
   font-weight: 500;
 }
 
+/* ----------------------------------------
+   Links
+-----------------------------------------*/
 a {
   color: #EC6C5B; /* Salmon */
   text-decoration: none;
@@ -36,11 +50,16 @@ a:hover {
   text-decoration: underline;
 }
 
-
+/* ----------------------------------------
+   Bullets (accent colour)
+-----------------------------------------*/
 .remark-slide-content ul li::marker {
   color: #EC6C5B; /* Salmon bullets */
 }
 
+/* ----------------------------------------
+   Code blocks
+-----------------------------------------*/
 .remark-code,
 .remark-inline-code {
   background: #C2AAEB; /* Lavender */
@@ -49,6 +68,14 @@ a:hover {
   border-radius: 4px;
 }
 
+/* Printed output from code blocks */
+.remark-code-output {
+  color: #EC6C5B; /* Salmon output text */
+}
+
+/* ----------------------------------------
+   Inverse slides
+-----------------------------------------*/
 .inverse {
   background-color: #6CBBA0; /* Mint */
   color: #392A48;            /* Purple text */
