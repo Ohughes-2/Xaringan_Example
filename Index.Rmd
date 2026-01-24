@@ -9,7 +9,6 @@ output:
     css: ["default", "default-fonts", "css/base.css"]
     lib_dir: libs
     nature:
-      highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
 ---
