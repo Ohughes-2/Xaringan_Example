@@ -97,3 +97,22 @@ pre .remark-code-output {
 .inverse a {
   color: #2E1A47; /* Plum links */
 }
+
+/* Larger text + vertical centering on the left */
+.references {
+  font-size: 1.1em;          /* increase text size */
+  line-height: 1.4;
+  
+  display: flex;             /* enable flexbox */
+  flex-direction: column;    /* stack items vertically */
+  justify-content: center;   /* vertical centering */
+  align-items: flex-start;   /* left alignment */
+
+  height: 100%;              /* fill slide height */
+  padding-left: 2em;         /* gentle left margin */
+}
+
+.references p {
+  margin-bottom: 0.6em;      /* spacing between entries */
+}
+

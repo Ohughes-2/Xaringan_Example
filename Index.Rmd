@@ -5,7 +5,7 @@ author: "Owen Hughes"
 institute: "UCL: CASA"
 date: "24/01/2026"
 
-bibliography: Xaringan-Week-2.bib
+bibliography: references.bib
 
 output:
   xaringan::moon_reader:
@@ -113,7 +113,7 @@ class: left, middle
 # Application
 
 .pull-left[
-In this study, GEDI was used in conjunction with Airborne LiDAR (ALS) to assess the biomass of savannas in South Africa. Initially the openly available world GEDI biomass model was used to model/predict the biomass of the area of study. [@li_evaluation_2024] found that the global GEDI data was not able to accurately model/predict the biomass in part because of the previously mentioned 1km data resolution. However, using training data collected by the more locally calibrated ALS, a model using the point cloud from the ALS and global GEDI metrics was able to significantly increase the predictive accuracy of the model while demonstrating that GEDI is sufficiently robust to use in a local model as long as local data is used for the training. 
+In this study, GEDI was used in conjunction with Airborne LiDAR (ALS) to assess the biomass of savannas in South Africa. Initially the openly available world GEDI biomass model was used to model/predict the biomass of the area of study. Li et al. (2024) found that the global GEDI data was not able to accurately model/predict the biomass in part because of the previously mentioned 1km data resolution. However, using training data collected by the more locally calibrated ALS, a model using the point cloud from the ALS and global GEDI metrics was able to significantly increase the predictive accuracy of the model while demonstrating that GEDI is sufficiently robust to use in a local model as long as local data is used for the training. 
 ]
 
 .pull-right[
@@ -150,7 +150,7 @@ class: left, middle
 ]
 
 .pull-right[
-In contrast to the previous study which looked to assess GEDI's capabilities at more local levels, this project assess GEDI at a regional level in Tanzania. To do this, [liang_assessing_2023] hypothesizes that protected areas (PA) in Tanzania are more efficient carbon sinks than comparable (size, vegetation) unprotected areas. Using GEDI LiDAR, the authors noted significantly higher biomass density, forest heights, and canopy cover in protect areas as opposed to unprotected areas. Additionally, the authors were able to deduce that smaller PAs were more efficient carbon sinks than larger PAs, suggesting a gradient of efficiency within PAs.This demonstrates GEDI as incredible efficient in its original design purpose, as a regional determinant of ecosystem carbon footprint.
+In contrast to the previous study which looked to assess GEDI's capabilities at more local levels, this project assess GEDI at a regional level in Tanzania. To do this, Liang et al. (2023) hypothesizes that protected areas (PA) in Tanzania are more efficient carbon sinks than comparable (size, vegetation) unprotected areas. Using GEDI LiDAR, the authors noted significantly higher biomass density, forest heights, and canopy cover in protect areas as opposed to unprotected areas. Additionally, the authors were able to deduce that smaller PAs were more efficient carbon sinks than larger PAs, suggesting a gradient of efficiency within PAs.This demonstrates GEDI as incredible efficient in its original design purpose, as a regional determinant of ecosystem carbon footprint.
 ]
 
 <div style="position: absolute; bottom: 1.5rem; width: 100%; text-align: left; font-size: 0.7em; font-style: italic;">
@@ -173,10 +173,20 @@ As displayed quite clearly in the papers, GEDI (given the right circumstance) is
 ]
 
 ---
+
+class: references
+
 # References
 
-::: references
-:::
+Li, X., Wessels, K., Armston, J., Duncanson, L., Urbazaev, M., Naidoo, L., Mathieu, R., & Main, R. (2024). *Evaluation of GEDI footprint level biomass models in Southern African Savannas using airborne LiDAR and field measurements*. Science of Remote Sensing, 10, 100161. https://doi.org/10.1016/j.srs.2024.100161
+
+Liang, M., González‑Roglich, M., Roehrdanz, P., Tabor, K., Zvoleff, A., Leitold, V., Silva, J., Fatoyinbo, T., Hansen, M., & Duncanson, L. (2023). *Assessing protected area’s carbon stocks and ecological structure at regional‑scale using GEDI lidar*. Global Environmental Change, 78, 102621. https://doi.org/10.1016/j.gloenvcha.2022.102621
+
+eoPortal. (n.d.). *ISS: GEDI (Global Ecosystems Dynamics Investigation Lidar)*. https://www.eoportal.org/satellite-missions/iss-gedi
+
+NASA Earthdata. (n.d.). *Global Ecosystem Dynamics Investigation*. https://www.earthdata.nasa.gov/data/projects/gedi
+
+
 
 
 
